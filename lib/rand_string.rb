@@ -1,5 +1,7 @@
-require "rand_string/version"
-require "rand_string/base"
+# frozen_string_literal: true
+
+require 'rand_string/version'
+require 'rand_string/base'
 
 module RandString
   class Error < StandardError; end
